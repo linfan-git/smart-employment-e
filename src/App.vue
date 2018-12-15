@@ -1,11 +1,6 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">首页</router-link> |
-      <router-link to="/publish">招聘发布</router-link>
-      <router-link to="/processing">应聘管理</router-link>
-      <router-link to="/me">我的</router-link>
-    </div>
+    <Navbot/>
     <router-view/>
   </div>
 </template>
@@ -18,10 +13,12 @@
 }
 body {
   background-color: #f7f7f7;
+  color: #000;
 }
 
 .container {
-  margin-top: 40px;
+  margin-top: 46px;
+  margin-bottom: 60px;
 }
 
 .container>div {
@@ -39,3 +36,15 @@ body {
   text-decoration: none;
 }
 </style>
+
+<script>
+// @ is an alias to /src
+import Navbot from '@/components/Navbot.vue'
+
+export default {
+  name: 'home',
+  components: {
+    Navbot
+  }
+}
+</script>
