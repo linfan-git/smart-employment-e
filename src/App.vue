@@ -1,7 +1,8 @@
 <template>
   <div id="app">
-    <Navbot/>
+    <Navtop/>
     <router-view/>
+    <Navbot/>
   </div>
 </template>
 
@@ -39,11 +40,13 @@ body {
 
 <script>
 // @ is an alias to /src
+import Navtop from '@/components/Navtop.vue'
 import Navbot from '@/components/Navbot.vue'
 
 export default {
   name: 'home',
   components: {
+    Navtop,
     Navbot
   }
 }

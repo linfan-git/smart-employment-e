@@ -137,7 +137,7 @@ export default {
   color: #fff;
   background: #007aff;
   border: none;
-  border-radius: 5px;
+  border-radius: 3px;
   width: 80px;
   height: 20px;
   text-align: center;
