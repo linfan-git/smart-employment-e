@@ -1,22 +1,23 @@
 <template>
   <div id="app">
     <Navtop/>
-    <router-view/>
-    <Navbot/>
-    <!-- <reward2/> -->
+    <!-- <router-view/>
+    <Navbot/> -->
+    <Login/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import Navtop from '@/components/Navtop.vue'
-import Navbot from '@/components/Navbot.vue'
-// import reward2 from '@/components/reward2.vue'
+// import Navbot from '@/components/Navbot.vue'
+import Login from '@/components/Login.vue'
 export default {
   name: 'home',
   components: {
     Navtop,
-    Navbot
+    // Navbot,
+    Login
   }
 }
 </script>
@@ -29,8 +30,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
 }
 body {
-  background-color: #f7f7f7;
-  color: #000;
+  background-color: #f7f7f7 !important;
 }
 
 .container {

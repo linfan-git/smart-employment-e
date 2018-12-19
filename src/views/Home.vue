@@ -2,9 +2,7 @@
   <div class="home">
     <Navtop/>
     <div class="container">
-      <div>
-        <Banner/>
-      </div>
+      <Banner/>
       <div class="info">
         <span class="i1">泰康饮食有限公司</span>
         <span class="i2">健康证认证</span>

@@ -12,15 +12,15 @@
 export default {
   data() {
     return {
+      current: 0,
       images: [
-        123,
-        456,
-        789,
-        require('../assets/icon/navbot/home-nor.png'),
-        require('../assets/icon/navbot/home-act.png')
+        'https://img.yzcdn.cn/public_files/2017/09/05/3bd347e44233a868c99cf0fe560232be.jpg',
+        'https://img.yzcdn.cn/public_files/2017/09/05/c0dab461920687911536621b345a0bc9.jpg',
+        'https://img.yzcdn.cn/public_files/2017/09/05/4e3ea0898b1c2c416eec8c11c5360833.jpg',
+        'https://img.yzcdn.cn/public_files/2017/09/05/fd08f07665ed67d50e11b32a21ce0682.jpg'
       ]
-    }
-  }
-}
+    };
+  },
+};
 </script>
 
